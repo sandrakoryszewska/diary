@@ -46,3 +46,7 @@ group :development do
 end
 
 gem 'bootstrap-sass', '~> 3.3.6'
+
+group :development, :test do
+  gem 'rspec-rails', '~> 3.4'
+end
